@@ -8,7 +8,7 @@
 
     include 'db_conn.php'; //DB connection
 
-    $sql = "UPDATE contacts SET fullname='$fullname', phone='$phone', email='$email', note='$note', WHERE id=$id"; // sql script
+    $sql = "UPDATE contacts SET fullname='$fullname', phone='$phone', email='$email', note='$note' WHERE id=$id"; // sql script
     
     mysqli_query($conn, $sql); //run sql script
 
